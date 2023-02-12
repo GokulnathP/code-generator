@@ -1,0 +1,7 @@
+{
+  "name": "npm-cli",
+  "version": "1.0.0",
+  "bin": {
+    "npm-cli": "index.js"
+  }
+}

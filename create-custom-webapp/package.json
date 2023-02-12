@@ -1,0 +1,15 @@
+{
+  "name": "create-custom-webapp",
+  "version": "1.0.0",
+  "description": "A tool to generate custom webapp",
+  "bin": {
+    "create-custom-webapp": "cli.js",
+    "ccw": "cli.js"
+  },
+  "dependencies": {
+    "commander": "10.0.0",
+    "enquirer": "2.3.6",
+    "fs-extra": "11.1.0",
+    "replace-in-file": "6.3.5"
+  }
+}
