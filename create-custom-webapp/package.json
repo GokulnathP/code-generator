@@ -1,6 +1,6 @@
 {
   "name": "create-custom-webapp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tool to generate custom webapp",
   "bin": {
     "create-custom-webapp": "cli.js",

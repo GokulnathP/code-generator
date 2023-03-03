@@ -22,6 +22,9 @@ const bootstrap = (config) => {
     to: [config.appName],
   });
 
+  console.log('Generating .ignore');
+  fs.moveSync(path.join(destinationPath, 'gitignore.template'), path.join(destinationPath, '.gitignore'));
+
   console.log('Installing required dependencies to start the application');
   execSync('npm install', { cwd: destinationPath });
 
