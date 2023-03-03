@@ -24,11 +24,12 @@ download it from the official website.
 
 ## Contents
 
-In this blog post, we will cover the following topics:
+In this post, we will cover the following topics:
 
-1. How to create an npm package
-2. How to create a generator using the "fs-extra", "enquirer", and "replace-in-file" modules
-3. Using the generator to create a custom web application
+1. How to create a npm package
+2. How to create Command-Line Interface (CLI) application in npm
+3. How to create a generator using the "fs-extra", "enquirer", and "replace-in-file" modules
+4. Using the generator to create a custom web application
 
 Each section will provide a step-by-step guide to help you create your own code generator and customize it to your
 needs.

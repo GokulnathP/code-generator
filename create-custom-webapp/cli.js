@@ -22,6 +22,6 @@ program
   .name(packageJson.name)
   .version(packageJson.version)
   .description(packageJson.description)
-  .action(() => readUserInput().then(bootstrap));
+  .action(() => readUserInput().then(bootstrap).catch(() => console.log("Application got quited unexpectedly")));
 
 program.parse();
