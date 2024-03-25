@@ -1,0 +1,8 @@
+{
+  "name": "custom-code-generator",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node src/index.js"
+  }
+}
